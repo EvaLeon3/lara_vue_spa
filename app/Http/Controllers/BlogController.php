@@ -91,6 +91,6 @@ class BlogController extends Controller
         $blog->delete();
         return response()->json([
             'mensaje'=> 'BLOG eliminado'
-        ])
+        ]);
     }
 }
